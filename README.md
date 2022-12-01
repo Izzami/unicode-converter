@@ -12,4 +12,4 @@ At the moment only characters from 32 to 126 (dec) are included. You can add mor
 - The file <a href="table.txt">"table.txt"</a> **MUST** stay in the same directory as the program.
 
 - ~~Space " " character doesn't work.
-You can't split words due to the space issue.~~ **--> fixed**
+You can't split words due to the space issue.~~ **--> fixed** in V 1.1
