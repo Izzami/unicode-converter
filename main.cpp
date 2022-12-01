@@ -30,7 +30,6 @@ int main()
 			if (current == (int)frasec[i])
 			{
 				cout<< linea.substr(0, 6)<<" ";
-
 				break;
 			}
 			current++;
