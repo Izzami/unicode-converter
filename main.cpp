@@ -15,7 +15,8 @@ int main()
 	string frases,linea,conve;
 	char frasec[m];
 	cout << "Input: ";
-	cin >> frases;
+	//cin >> frases;
+	getline(cin, frases);
 	strcpy(frasec, frases.c_str());
 	ifstream tabella;
 	tabella.open("table.txt", ios::in);
@@ -27,6 +28,11 @@ int main()
 		int current = 0;
 		while (getline(tabella, linea))
 		{
+			/*if (current > 127)
+			{
+				cout << " ";
+				break;
+			}*/
 			if (current == (int)frasec[i])
 			{
 				cout<< linea.substr(0, 6)<<" ";
