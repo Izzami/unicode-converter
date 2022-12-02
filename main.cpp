@@ -28,11 +28,6 @@ int main()
 		int current = 0;
 		while (getline(tabella, linea))
 		{
-			/*if (current > 127)
-			{
-				cout << " ";
-				break;
-			}*/
 			if (current == (int)frasec[i])
 			{
 				cout<< linea.substr(0, 6)<<" ";
