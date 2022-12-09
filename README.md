@@ -1,6 +1,6 @@
 # unicode-converter
 A minimal program to convert glyph characters to Unicode codes
-<br></br>
+
 ## Adding characters
 At the moment only characters from 32 to 126 (dec) are included. You can add more characters by simply adding them into the <a href="table.txt">"table.txt"</a> file using the right order (*glyph and decimal code are optional*):
 > U+0000  x     nu
